@@ -26,7 +26,7 @@ Airflow was used to schedule and execute ETL pipeline. The pipeline consist of 4
 - loading dimension
 - quality check
 
-<< put image here >>
+![dag](https://github.com/OmarAlghamdi/sparkify-airflow-pipeline/blob/master/dag.png)
 
 ## Details of the ETL process
 Extraction: Data is copied from S3 into a stang tables in Redshift. The staging tables are `staging_events` and `staging_songs`.
